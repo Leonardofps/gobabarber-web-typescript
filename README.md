@@ -1,44 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">GoBarber - Back-end</h1>
 
-## Available Scripts
+<h3 align="center">Uma plataforma para criação de agendamento e gerenciamento de uma barbearia </h3>
+<h4 align="center">
+	🚧   Concluído 🚀 🚧
+</h4>
 
-In the project directory, you can run:
+## 💻 Sobre o projeto
 
-### `yarn start`
+O projeto consiste no front-end de um serviço de agendamento de clientes a uma barbearia, onde é possível realizar a escolha do barbeiro, junto a hora disponível de atendimento pelo mesmo.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Foi um projeto desenvolvido para entrega final da certificação GoStack, proporcionado pela 🚀RocketSeat, onde é realizado um curso imersivo onde os alunos aprendem como trabalhar com ferramentas como Node.Js, ReactJs e React Native.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## ⚛ Tecnologias utilizadas
 
-### `yarn test`
+#### **Client-Side** ([ReactJS](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   **[Axios](https://github.com/axios/axios)**
+-   **[Date-fns](https://date-fns.org/)**
+-   **[Polished](https://polished.js.org/)**
+-   **[Styled-components](https://styled-components.com/)**
+-   **[Uuidv4](https://github.com/thenativeweb/uuidv4)**
+-   **[Yup](https://github.com/jquense/yup)**
+-   **[Eslint](https://eslint.org/)**
+-   **[Prettier](https://prettier.io/)**
 
-### `yarn build`
+> Veja o arquivo  [package.json](https://github.com/Leonardofps/gobabarber-web-typescript/blob/master/package.json)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🚀 Como executar o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pré-requisitos
 
-### `yarn eject`
+Antes de começar, você vai precisar ter instalado em sua máquina a seguinte ferramenta:
+[Git](https://git-scm.com). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### 🎲 Iniciando a aplicação (Client-Side)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Clone este repositório
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Vá para a pasta server
+$ cd gobabarber-web-typescript
 
-## Learn More
+# Instale as dependências
+$ npm install ou yarn install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Execute a aplicação em modo de desenvolvimento
+$ npm start ou yarn start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# O servidor inciará na porta:3000 - acesse http://localhost:3000/
+
+```
+
+## 🦸 Autor
+
+<a href="/">
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/17345955?s=460&u=c24ff9c39e234fa5cdd3fb48a8a11a21979736e0&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Leonardo Felipe</b></sub></a> 
+ <br />
+
+[![Twitter Badge](https://img.shields.io/badge/-@leonardofps1-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/leonardofps1)](https://twitter.com/Leonardofps1) [![Linkedin Badge](https://img.shields.io/badge/-Leonardo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leonardo-felipe-pereira-da-silva-780b02150/)](https://www.linkedin.com/in/leonardo-felipe-pereira-da-silva-780b02150/) 
+
+---
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito com ❤️ por Leonardo Felipe 👋🏽 [Entre em contato!](https://www.linkedin.com/in/leonardo-felipe-pereira-da-silva-780b02150/)
